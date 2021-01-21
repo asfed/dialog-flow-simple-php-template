@@ -28,5 +28,3 @@ if (getallheaders()['x-auth-token'] == 'test_token') {
     print '{"fulfillmentText": "Что-то пошло не так"}';
 
 }
-
-header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found");
